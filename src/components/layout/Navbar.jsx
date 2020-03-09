@@ -1,10 +1,10 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
+import { Link } from 'gatsby'
 
 const Navbar = () => {
   const activeStyle = {
-    color: "red",
-    background: "tan",
+    color: 'red',
+    background: 'tan',
   }
 
   return (
@@ -15,6 +15,9 @@ const Navbar = () => {
         </Link>
         <Link to="/about" activeStyle={activeStyle}>
           About
+        </Link>
+        <Link to="/great-divas" activeStyle={activeStyle}>
+          The Great Divas
         </Link>
       </nav>
     </div>

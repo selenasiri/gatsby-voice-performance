@@ -1,7 +1,7 @@
-import React from "react"
-import "../../assets/css/style.css"
-import Banner from "./Banner"
-import Navbar from "./Navbar"
+import React from 'react'
+import '../../assets/css/style.css'
+import Banner from './Banner'
+import Navbar from './Navbar'
 
 const Layout = props => {
   return (

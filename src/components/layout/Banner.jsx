@@ -1,6 +1,6 @@
-import React from "react"
-import logo from "../../assets/images/logo.jpeg"
-import { Link } from "gatsby"
+import React from 'react'
+import logo from '../../assets/images/logo.jpeg'
+import { Link } from 'gatsby'
 
 const Banner = props => {
   return (
