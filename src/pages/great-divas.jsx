@@ -7,7 +7,8 @@ const GreatDiva = () => {
     <Layout title="The Great Divas">
       <SEO title="Great Divas" />
 
-      <h1>Maria Callas</h1>
+      <h1>Sorry,</h1>
+      <h3>We are currently working on "The Great Divas" at the moment!</h3>
     </Layout>
   )
 }

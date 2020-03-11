@@ -56,11 +56,12 @@ const Registration = () => {
           <label htmlFor="streetName">Street Name:</label>
           <input type="text" name="streetName" id="streetName" />
           <br />
+          <br />
           <label htmlFor="city">City:</label>
           <input type="text" name="city" id="city" />
           <div className="state">
             <label for="state">State </label>
-            {/* <input type="text" name="state " id="state" title="state" /> */}
+
             <select name="state" id="state">
               <option value=""></option>
               <option value="alabama">Alabama</option>
@@ -129,6 +130,7 @@ const Registration = () => {
             maxlength="10"
           />
           <br />
+          <br />
           <label for="areaCode">Telephone:</label>
           <input
             type="text"
@@ -137,6 +139,7 @@ const Registration = () => {
             size="3"
             maxlength="3"
           />
+          -
           <input
             type="text"
             name="phonePrefix"
@@ -144,6 +147,7 @@ const Registration = () => {
             size="3"
             maxlength="3"
           />
+          -
           <input
             type="text"
             name="phoneSuffix"
