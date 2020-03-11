@@ -1,18 +1,22 @@
 import React from 'react'
 import Layout from '../components/layout/Layout'
 import SEO from '../components/SEO'
+import literature from '../assets/images/literature.jpeg'
+import library from '../assets/images/library.jpeg'
 
 const Literature = () => {
   return (
     <Layout title="Literature and Resources">
       <SEO title="Literature and Resources" />
 
+      <img className="literature" src={literature} alt="literature" />
       <p>
         The following books are resources for students to continue their vocal
         studies. Whether they are eager to learn about the anatomy and
         physiology of the voice or private interviews with the great divas,
         these resources are a wonderful start.
       </p>
+
       <p>Simply click on each title to learn more!</p>
 
       <ol>
@@ -21,18 +25,23 @@ const Literature = () => {
             “The Singer’s Guide to Complete Health” by Dr. Anthony F. Jahn
           </a>
         </li>
+        <br />
         <li>
           <a href="https://www.amazon.com/Last-Prima-Donnas-Lanfranco-Rasponi/dp/0879100400/ref=sr_1_1?keywords=the+last+prima+donnas&qid=1575518118&s=books&sr=1-1">
             “The Last Prima Donnas” by Lanfranco Rasponi
           </a>
         </li>
+        <br />
         <li>
           <a href="https://www.amazon.com/Securing-Baritone-Bass-Baritone-Bass-Voices/dp/0195322657/ref=sr_1_2?keywords=bass+bass+baritone&qid=1575518205&s=books&sr=1-2">
             “Securing Baritone, Bass-Baritone, and Bass Voices” by Richard
             Miller
           </a>
         </li>
+        <br />
       </ol>
+
+      <img className="library" src={library} alt="library" />
     </Layout>
   )
 }

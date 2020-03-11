@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout/Layout'
 import SEO from '../components/SEO'
 import pianoSheet from '../assets/images/piano-sheet.jpeg'
+import city from '../assets/images/city.jpeg'
 
 const index = () => {
   return (
@@ -26,7 +27,8 @@ const index = () => {
           via email with the most relevant news in today's world of opera.
         </p>
         <br />
-        {/* <img src="images/city.jpeg" alt="piano sheet music" /> */}
+
+        <img className="city" src={city} alt="city" />
       </div>
     </Layout>
   )
