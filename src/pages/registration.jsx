@@ -25,7 +25,6 @@ const Registration = () => {
       >
         <fieldset>
           <legend>Contact Info</legend>
-
           <div className="name-group-container">
             <div className="name-group">
               <label for="firstname">First Name</label>
@@ -49,21 +48,16 @@ const Registration = () => {
             </div>
           </div>
           <br />
-
           <div className="email">
             <label for="email">Email</label>
             <input type="text" name="email" id="email" title="email" />
           </div>
           <br />
-
           <label htmlFor="streetName">Street Name:</label>
           <input type="text" name="streetName" id="streetName" />
-
           <br />
-
           <label htmlFor="city">City:</label>
           <input type="text" name="city" id="city" />
-
           <div className="state">
             <label for="state">State </label>
             {/* <input type="text" name="state " id="state" title="state" /> */}
@@ -126,11 +120,37 @@ const Registration = () => {
             </select>
           </div>
           <br />
-
-          {/* Zip-code 
-
-
-          Telephone */}
+          <label for="zipCode">Zip Code:</label>
+          <input
+            type="text"
+            name="zipCode"
+            id="zipCode"
+            size="10"
+            maxlength="10"
+          />
+          <br />
+          <label for="areaCode">Telephone:</label>
+          <input
+            type="text"
+            name="areaCode"
+            id="areaCode"
+            size="3"
+            maxlength="3"
+          />
+          <input
+            type="text"
+            name="phonePrefix"
+            id="phonePrefix"
+            size="3"
+            maxlength="3"
+          />
+          <input
+            type="text"
+            name="phoneSuffix"
+            id="phoneSuffix"
+            size="4"
+            maxlength="4"
+          />
         </fieldset>
         <br /> <br />
         <input className="submit-btn" type="submit" value="Validation Form" />
