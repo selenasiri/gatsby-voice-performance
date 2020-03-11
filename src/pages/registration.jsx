@@ -58,6 +58,12 @@ const Registration = () => {
 
           <label htmlFor="streetName">Street Name:</label>
           <input type="text" name="streetName" id="streetName" />
+
+          <br />
+          <br />
+
+          <label htmlFor="city">City:</label>
+          <input type="text" name="city" id="city" />
         </fieldset>
         <br /> <br />
         <input className="submit-btn" type="submit" value="Validation Form" />
