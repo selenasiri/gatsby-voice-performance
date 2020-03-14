@@ -39,13 +39,7 @@ const About = () => {
         piano and singing lessons. Through teaching contemporary and classical
         styles of music, I hope that I can share this passion with others and
         teach others to perform each role with justice. At the end of the day it
-        is about telling a story that will benefit others. For more information
-        please visit my
-        <a href="https://selenasiri.com/" target="_blank">
-          {' '}
-          website.
-        </a>
-        "
+        is about telling a story that will benefit others."
       </p>
     </Layout>
   )
